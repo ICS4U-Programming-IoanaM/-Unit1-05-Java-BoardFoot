@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * This program is a game in which the user has to guess what the number on a dice is.
+ * This program is calculates the length of a board.
  *
  * @author Ioana Marinescu
  * @version 1.0
