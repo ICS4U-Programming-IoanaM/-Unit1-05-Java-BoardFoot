@@ -2,14 +2,12 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * This program is a game in which the user has to guess what the number on a
- * dice is.
+ * This program is a game in which the user has to guess what the number on a dice is.
  *
  * @author Ioana Marinescu
  * @version 1.0
  * @since 2024-03-04
  */
-
 public final class BoardFoot {
   /** Private constructor to prevent instantiation of this utility class. */
   private BoardFoot() {
@@ -17,9 +15,9 @@ public final class BoardFoot {
   }
 
   /**
-   * Calculates the length of a board foot
-   * 
-   * @param width  The width of the wood.
+   * Calculates the length of a board foot.
+   *
+   * @param width The width of the wood.
    * @param height The height of the wood.
    * @return The board foot length of wood.
    */
