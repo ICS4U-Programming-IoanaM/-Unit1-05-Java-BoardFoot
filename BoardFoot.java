@@ -13,7 +13,7 @@ import java.util.Scanner;
 public final class BoardFoot {
   /** Private constructor to prevent instantiation of this utility class. */
   private BoardFoot() {
-    // 
+    // .
   }
 
   /**
@@ -23,12 +23,12 @@ public final class BoardFoot {
    * @param height The height of the wood.
    * @return The board foot length of wood.
    */
-  public static float calcBoardFoot(float width, float height) {
+  public static float calcBoardFoot(final float width, final float height) {
     // constants
-    final int VOLUME = 144;
+    final int volume = 144;
 
     // calculation of length
-    return (VOLUME) / (width * height);
+    return (volume) / (width * height);
   }
 
   /**
@@ -40,8 +40,8 @@ public final class BoardFoot {
     // introductory message
     System.out.println();
     System.out.print("Welcome to board foot program! This program");
-    System.out.println(" will take a width and height (inches only) and tell you how");
-    System.out.println("long the board should be.");
+    System.out.println(" will take a width and height (inches only)");
+    System.out.println("and tell you how long the board should be.");
     System.out.println();
     // imports scanner
     final Scanner scanner = new Scanner(System.in);
