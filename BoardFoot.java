@@ -64,7 +64,7 @@ public final class BoardFoot {
       final float length = calcBoardFoot(width, height);
 
       // display to user
-      System.out.format("The length of the plank is %.2f inches", length);
+      System.out.format("The length of the plank is %.2f inches cubed.", length);
       System.out.println();
 
       // exceptions (catching errors)
